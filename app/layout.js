@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Import />
-        {/* <Navigation /> */}
+        <Navigation />
         {children}
       </body>
     </html>
