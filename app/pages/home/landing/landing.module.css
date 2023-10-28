@@ -1,0 +1,17 @@
+.landing{
+    background-image: url(../../../../public/images/landing-bg.jpg);
+    background-size: cover;
+    height: calc(100vh - 9rem);
+    width: 100vw;
+}
+.landing input{
+    caret-color: var(--gold-color);
+    cursor: var(--text-cursor);
+}
+.landing input:focus{
+    box-shadow: none;
+    border-color: var(--gold-color);
+}
+.landing input::placeholder{
+    color: var(--gold-color);
+}

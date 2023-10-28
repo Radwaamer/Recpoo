@@ -1,0 +1,22 @@
+nav .menu .dropdown,nav .menu .dropdown button,
+nav .menu .dropdown ul li, .navbar button{
+    cursor: var(--pointer-cursor)
+}
+nav .menu .dropdown ul{
+    height: 17rem;
+    overflow: auto;
+}
+nav .menu .dropdown ul::-webkit-scrollbar {
+    width: 16px;
+}
+nav .menu .dropdown ul::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+nav .menu .dropdown ul::-webkit-scrollbar-thumb {
+    background-color: #B18D1E;
+    border-radius: 100px;
+}
+.navbarToggle{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}

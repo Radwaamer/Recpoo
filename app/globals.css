@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +104,20 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+:root{
+  --yellow-color:#fcc419;
+  --gold-color: #f1bc1a;
+  --default-cursor: url(../public/images/cursor/default-cursor.svg) 20 -20, default !important;
+  --pointer-cursor: url(../public/images/cursor/hand-cursor.svg) 20 -20, pointer !important;
+  --text-cursor: url(../public/images/cursor/text-cursor.png) 20 -20, text !important;
+  --main-transition: 0.3s;
+  --line-height:1.8;
+}
+body{
+  font-family: 'Gloria Hallelujah', cursive !important;
+  font-family: 'Playpen Sans', cursive !important;
+  cursor: var(--default-cursor);
+  background-color: black !important;
 }

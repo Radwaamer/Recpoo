@@ -1,0 +1,13 @@
+.join h4{
+    line-height: var(--line-height);
+}
+.join button{
+    color: var(--gold-color);
+    cursor: var(--pointer-cursor);
+}
+.join .bottom{
+    width: 30%;
+}
+.join img{
+    max-width: 70%;
+}

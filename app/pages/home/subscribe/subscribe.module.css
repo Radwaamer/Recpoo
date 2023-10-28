@@ -1,0 +1,10 @@
+.subscribe input{
+    cursor: var(--text-cursor);
+}
+.subscribe input:focus{
+    box-shadow: none;
+}
+.subscribe button{
+    background-color: var(--gold-color);
+    cursor: var(--pointer-cursor) !important;
+}

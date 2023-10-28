@@ -1,0 +1,20 @@
+.categories .image:hover{
+    cursor: var(--pointer-cursor);
+}
+.categories .image .text{
+    background-color: #333333e6;
+    color: #f1bb1a;
+    visibility: hidden;
+    height: 0;
+    transition: var(--main-transition) height;
+    overflow:hidden;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+.categories .image:hover .text{
+    visibility: visible;
+    height: 85px;
+}

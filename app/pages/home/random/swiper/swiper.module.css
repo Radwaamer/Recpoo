@@ -1,0 +1,6 @@
+.recipe{
+    cursor: var(--pointer-cursor);
+}
+.recipe .details{
+    color: var(--gold-color);
+}
