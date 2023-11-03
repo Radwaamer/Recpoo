@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
-import Navigation from "./components/layouts/navigation/navigation";
+// import Navigation from "./components/layouts/navigation/navigation";
 
 import Import from "./import";
 
