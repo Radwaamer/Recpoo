@@ -1,5 +1,5 @@
 nav .menu .dropdown,nav .menu .dropdown button,
-nav .menu .dropdown ul li, .navbar button{
+nav .menu .dropdown ul li a, .navbar button,.navbar a{
     cursor: var(--pointer-cursor)
 }
 nav .menu .dropdown ul{

@@ -121,3 +121,6 @@ body{
   cursor: var(--default-cursor);
   background-color: black !important;
 }
+a{
+  cursor: var(--pointer-cursor) !important;
+}

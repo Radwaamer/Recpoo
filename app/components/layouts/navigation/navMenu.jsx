@@ -13,19 +13,19 @@ const NavMenu = ({styles}) => {
                 <button className="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Categories
                 </button>
-                <ul className="categories dropdown-menu w-100 overflow-auto"><List list={categories} search={"strCategory"}/></ul>
+                <ul className="categories dropdown-menu w-100 overflow-auto"><List list={categories} search={"strCategory"} filter="c"/></ul>
             </div>
             <div className={`${styles.dropdown} nav-item position-relative`}>
                 <button className="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Area
                 </button>
-                <ul className="area dropdown-menu w-100 overflow-auto"><List list={area} search={"strArea"}/></ul>
+                <ul className="area dropdown-menu w-100 overflow-auto"><List list={area} search={"strArea"} filter="a"/></ul>
             </div>
             <div className={`${styles.dropdown} nav-item position-relative`}>
                 <button className="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     ingredients
                 </button>
-                <ul className="ingredients dropdown-menu w-100 overflow-auto"><List list={ingredients} search={"strIngredient"}/></ul>
+                <ul className="ingredients dropdown-menu w-100 overflow-auto"><List list={ingredients} search={"strIngredient"} filter="i"/></ul>
             </div>
         </div>
     )

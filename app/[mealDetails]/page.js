@@ -1,18 +1,11 @@
-"use client"
-import { useParams } from 'next/navigation';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import styles from './meal.module.css';
 
-const page = () => {
-    const params= useParams();
-    const [data,setData]=useState({});
-
-    useEffect(()=>{
-        fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${params.mealDetails}`)
-        .then(res=>res.json())
-        .then(dt=>setData(dt.meals[0]))
-    },[]);
+const page = async({params}) => {
+    const res= await fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${params.mealDetails}`);
+    const dt= await res.json();
+    const data= await dt.meals[0];
 
     let instructions= data.strInstructions;
     if (data.strInstructions!=undefined){

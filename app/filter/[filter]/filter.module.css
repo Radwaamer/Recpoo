@@ -1,0 +1,16 @@
+.card:hover{
+    cursor: var(--pointer-cursor);
+}
+.card p{
+    background-color: #333333e6;
+    color: #f1bb1a;
+    visibility: hidden;
+    height: 0;
+    transition: var(--main-transition) height;
+    overflow:hidden;
+    width: 100%;
+}
+.card:hover p{
+    visibility: visible;
+    height: 70px;
+}
